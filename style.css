@@ -80,6 +80,15 @@ span a :hover {
   color: blue;
   transition: 2s;
 }
+.hide-display {
+  visibility: hidden;
+}
+.error {
+  transform: translateX(-100%);
+  width: 400px;
+  height: 100vh;
+  transition: 1s;
+}
 .anime {
   transition: 1s;
   width: 400px;
@@ -87,9 +96,4 @@ span a :hover {
   margin: 0px;
 }
 
-.error {
-  transform: translateX(-100%);
-  width: 400px;
-  height: 100vh;
-  transition: 1s;
-}
+
